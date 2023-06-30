@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header id="Home">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary my-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Artem Mazur</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contacts</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="me" class="main">
+      <div class="main-info">
+        <h1>Artem Mazur</h1>
+        <p>I am a football player</p>
+      </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade my-slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/main2.jpg" class="d-block" width="1200" height="890" alt="me">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/main1.jpg" class="d-block" width="1200" height="890" alt="me">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/main3.jpg" class="d-block" width="1200" height="890" alt="me">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <div class="card-group">
+      <div class="card">
+        <img class="football-card "src="./img/football-rules.jpg" class="card-img-top" alt="Football rules">
+        <div class="card-body">
+          <h5 class="card-title">Football rules</h5>
+          <p class="card-text">Football rules also include fouls, which are violations of the game's laws that result in
+            free-kicks or penalties. Fouls can include tripping, pushing, or using excessive force against an opponent.
+            Additionally, players can be cautioned with a yellow card or sent off with a red card for serious offenses
+            such as violent conduct or deliberate handball. The game is played with two teams of eleven players, and the
+            objective is to score more goals than the opposing team by kicking the ball into their goal. The game is
+            divided into two halves of 45 minutes each, with a halftime break in between.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="football-card" src="./img/football-ball.jpg" class="card-img-top" alt="football ball">
+        <div class="card-body">
+          <h5 class="card-title">Information about football</h5>
+          <p class="card-text">Football, also known as soccer, is a popular sport played worldwide. It involves two
+            teams of eleven players each, trying to score goals by kicking a ball into the opposing team's net. The game
+            is played on a rectangular field with a goal at each end. Football requires skill, teamwork, and physical
+            fitness. It is watched by millions of fans and has produced some of the greatest athletes in history. The
+            World Cup, held every four years, is the most prestigious football tournament.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="football-card" src="./img/ofside.avif" class="card-img-top" alt="offside">
+        <div class="card-body">
+          <h5 class="card-title">Offside</h5>
+          <p class="card-text">Offside is a rule in football that prevents attacking players from being in an offside
+            position when the ball is played to them by a teammate. A player is considered offside if they are closer to
+            the opposing team's goal than both the ball and the second-to-last defender, at the moment the ball is
+            played. If a player is offside, the opposing team is awarded a free-kick. The offside rule is designed to
+            prevent players from gaining an unfair advantage by standing in an offside position and waiting for the ball
+            to be played to them.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
